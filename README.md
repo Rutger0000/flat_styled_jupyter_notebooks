@@ -15,6 +15,7 @@ flat_styled_jupyter_notebooks.set_style()
 More information on:
 
 [GitHub](https://github.com/Rutger0000/flat_styled_jupyter_notebooks)
+
 [PyPi](https://pypi.org/project/flat-styled-jupyter-notebooks)
 
 ### Features

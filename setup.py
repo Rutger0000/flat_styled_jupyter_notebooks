@@ -4,11 +4,11 @@
 
 from setuptools import setup, find_packages
 
-with open('README.rst') as readme_file:
+with open('README.md') as readme_file:
     readme = readme_file.read()
 
-with open('HISTORY.rst') as history_file:
-    history = history_file.read()
+# with open('HISTORY.rst') as history_file:
+#     history = history_file.read()
 
 requirements = [ ]
 
@@ -31,7 +31,8 @@ setup(
     description="Removes shadows from jupyter notebook to create a flat styled experience.",
     install_requires=requirements,
     license="MIT license",
-    long_description=readme + '\n\n' + history,
+    long_description_content_type='text/markdown',
+    long_description=readme,
     include_package_data=True,
     keywords='flat_styled_jupyter_notebooks',
     name='flat_styled_jupyter_notebooks',
@@ -39,6 +40,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/Rutger0000/flat_styled_jupyter_notebooks',
-    version='0.1.0',
+    version='0.2.0',
     zip_safe=False,
 )

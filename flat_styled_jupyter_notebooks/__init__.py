@@ -2,9 +2,7 @@
 
 __author__ = """Rutger Berns"""
 __email__ = 'rutgerb0000@gmail.com'
-__version__ = '0.1.0'
-
-print("Hello")
+__version__ = '0.2.0'
 
 from IPython.core.display import HTML, display
 
